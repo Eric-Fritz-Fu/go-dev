@@ -16,8 +16,3 @@ tar -xzf *.tar.gz
 echo Installing Go
 mv go /usr/local
 echo done.
-
-# 安装vscode插件依赖
-go install -v golang.org/x/tools/gopls@latest
-go install -v github.com/ramya-rao-a/go-outline@latest
-
