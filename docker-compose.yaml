@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  dev:
+    build: .
+    volumes:
+      - D:\Git\Go\workspace:/home/developer/go/src
+    ports:
+      - 8080:8080
